@@ -1,5 +1,7 @@
+# Gen AI App using DeepSeek-R1, LangChain and Ollama
+
 ## 🚀 Overview
-This project is an **End-to-End Retrieval-Augmented Generation (RAG)** built using **DeepSeek-R1**, **LangChain**, and **Ollama**. It enables users to interact with powerful AI-driven responses in a streamlined and efficient manner.
+This project is an **End-to-End Generative AI Application** built using **DeepSeek-R1**, **LangChain**, and **Ollama**. It enables users to interact with powerful AI-driven responses in a streamlined and efficient manner.
 
 ## 🏗️ Tech Stack
 - **DeepSeek-R1:1.5B** (LLM Model trained on 1.5 billion parameters)
@@ -12,14 +14,14 @@ This project is an **End-to-End Retrieval-Augmented Generation (RAG)** built usi
 ```
 Gen-AI-With-DeepSeek
 │── venv/               # Virtual environment
-│── rag_deep.py         # Main application file
+│── app.py              # Main application file
 │── requirements.txt    # Python dependencies
 │── streamlit/          # Streamlit-based UI components
 ```
 ## ⚡ Installation
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/krishna25092005/AIDocTalk.git
+git clone https://github.com/krishna25092005/deepseek-code-companion.git
 ```
 ### 2️⃣ Create a Virtual Environment
 ```sh
@@ -33,7 +35,7 @@ pip install -r requirements.txt
 ```
 ### 4️⃣ Run the Application
 ```sh
-streamlit run rag_deep.py
+streamlit run app.py
 ```
 # 🔥 Features
 - ✅ **Real-time AI chat with your document using DeepSeek-R1:1.5B**
@@ -41,7 +43,7 @@ streamlit run rag_deep.py
 - ✅ **Interactive UI built with Streamlit**
 - ✅ **Optimized AI inference using Ollama**
 # 📸 Screenshots
-![Image](https://github.com/user-attachments/assets/b4932d00-f9ba-45cf-ab92-4bc58ce7fe84)
+![Image](https://github.com/user-attachments/assets/4c3ca828-e25a-4c1c-916e-15d414a639c6)
 
 # 📌 Future Enhancements
 - **Add multi-modal AI capabilities**
